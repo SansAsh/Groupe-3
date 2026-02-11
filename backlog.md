@@ -1,13 +1,4 @@
 Backlog Produit corrigé – Tomodoro & Bongo Dino
-Corrections apportées :
-
-Uniformisation des accents et majuscules (ex. "Utilisateur").
-
-Traduction complète des critères d'acceptation en français avec Étant donné / Quand / Alors.
-
-Table propre, format Markdown optimisé pour Jira/Miro.
-
-Suppression des espaces inutiles, cohérence orthographique.
 
 Acteurs
 Visiteur : non connecté, découvre l’application et crée un compte.
@@ -28,19 +19,19 @@ D. Statistiques & Gamification
 
 User Stories (MoSCoW + estimation)
 ID	Module	User Story	Priorité	Estim (S/M/L)
-US-01	Auth	En tant que Visiteur, je veux créer un compte afin de sauvegarder mes sessions Tomodoro et mes scores Bongo Dino.	Must	M
-US-02	Auth	En tant qu’Utilisateur, je veux me connecter afin de retrouver mon historique de travail et mes statistiques de jeu.	Must	M
-US-03	Auth	En tant qu’Utilisateur, je veux me déconnecter afin de sécuriser mon compte sur les postes partagés.	Should	S
-US-04	Tomodoro	En tant qu’Utilisateur, je veux configurer la durée de mes sessions de travail et de pause afin d’adapter Tomodoro à mon rythme de travail.	Must	M
-US-05	Tomodoro	En tant qu’Utilisateur, je veux lancer, mettre en pause et arrêter un minuteur Tomodoro afin de gérer précisément mes cycles de concentration.	Must	M
-US-06	Tomodoro	En tant qu’Utilisateur, je veux voir l’historique de mes sessions Tomodoro (nombre de sessions, durée totale de focus) afin de suivre ma progression dans le temps.	Should	M
+US-01	Auth	En tant que Visiteur, je veux créer un compte afin de sauvegarder mes sessions Tomodoro et mes scores Bongo Dino.	devrait	M
+US-02	Auth	En tant qu’Utilisateur, je veux me connecter afin de retrouver mon historique de travail et mes statistiques de jeu.	devrait	M
+US-03	Auth	En tant qu’Utilisateur, je veux me déconnecter afin de sécuriser mon compte sur les postes partagés.	pourrais	S
+US-04	Tomodoro	En tant qu’Utilisateur, je veux configurer la durée de mes sessions de travail et de pause afin d’adapter Tomodoro à mon rythme de travail.	devrait	M
+US-05	Tomodoro	En tant qu’Utilisateur, je veux lancer, mettre en pause et arrêter un minuteur Tomodoro afin de gérer précisément mes cycles de concentration.	devrait	M
+US-06	Tomodoro	En tant qu’Utilisateur, je veux voir l’historique de mes sessions Tomodoro (nombre de sessions, durée totale de focus) afin de suivre ma progression dans le temps.	pourrais	M
 US-07	Tomodoro	En tant qu’Utilisateur, je veux associer chaque session Tomodoro à une tâche ou un projet afin de savoir sur quoi j’ai réellement travaillé.	Nice	M
-US-08	Bongo	En tant qu’Utilisateur, je veux lancer le mini-jeu Bongo Dino pendant les pauses afin de me détendre sans quitter l’application Tomodoro.	Must	M
-US-09	Bongo	En tant qu’Utilisateur, je veux contrôler Bongo Dino avec des actions simples (clics ou touches) afin de jouer rapidement sans apprentissage complexe.	Should	S
+US-08	Bongo	En tant qu’Utilisateur, je veux lancer le mini-jeu Bongo Dino pendant les pauses afin de me détendre sans quitter l’application Tomodoro.	devrait	M
+US-09	Bongo	En tant qu’Utilisateur, je veux contrôler Bongo Dino avec des actions simples (clics ou touches) afin de jouer rapidement sans apprentissage complexe.	pourrais	S
 US-10	Bongo	En tant qu’Utilisateur, je veux gagner des points ou des bonus dans Bongo Dino en fonction de mes performances afin de rendre les pauses plus motivantes.	Nice	M
 US-11	Bongo	En tant qu’Utilisateur, je veux voir un tableau de mes meilleurs scores Bongo Dino afin de me challenger et suivre mon amélioration.	Nice	M
-US-12	Stats	En tant qu’Utilisateur, je veux voir un résumé combiné de mes sessions Tomodoro (temps de focus) et de mes scores Bongo Dino afin de visualiser l’équilibre entre travail et pauses ludiques.	Should	M
-MVP recommandé : Toutes les stories Must (US-01, US-02, US-04, US-05, US-08), puis les principales Should (US-03, US-06, US-09, US-12) si le temps le permet.
+US-12	Stats	En tant qu’Utilisateur, je veux voir un résumé combiné de mes sessions Tomodoro (temps de focus) et de mes scores Bongo Dino afin de visualiser l’équilibre entre travail et pauses ludiques.	pourrais	M
+MVP recommandé : Toutes les stories doit (US-01, US-02, US-04, US-05, US-08), puis les principales devrait (US-03, US-06, US-09, US-12) si le temps le permet.
 ​
 
 Critères d’acceptation (format Étant donné / Quand / Alors)
